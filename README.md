@@ -10,20 +10,28 @@ The document contains various a brief introduction to C-Programming and what it 
 ##### C-Basics 
 This tackles the most interesting and important components of a C-program that are very crucial in writing code.
 ##### Code Construct
-..1.Html
-..2.CSS
+
+2 CSS
 
 ##### REFERENCES 
-..1.https://www.tutorialspoint.com 
- ..2.https://www.Sololearn.com 
-..3.https://www.W3schools.com
+1 https://www.tutorialspoint.com 
+ 
+ 2 https://www.Sololearn.com 
+
+3 https://www.W3schools.com
 
 ##### REFERENCE BOOKS 
 ..1.Title: Learning to Program in C 
 Author: N. Kantaris 
+1 Title: Learning to Program in C 
+ 
+ Author: N. Kantaris 
+
 Publisher: Baban
  
-..2.Title: Illustrating ANSI C 
+2 Title: Illustrating ANSI C 
+ 
  Author: Donald Alcock 
+ 
  Publisher: Cambridge University Press
 

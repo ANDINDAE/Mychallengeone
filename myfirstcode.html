@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+        <meta charset="utf-8">
+    <title>Programming is fun!!!!</title>
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <h1><b<font size="30"><font face="Arial"><font color="red">Programming Methodology</font color></font size></b></h1>
+	  <ul><b>
+        <a class="nav-link" href="#What is programming?" rel="internal"><li>What is programming?</li></a>
+       <a class="nav-link" href="#What is a programming language?" rel="internal"><li>What is a programming language?</li></a>
+        <a class="nav-link" href="# categories of programming languages" rel="internal"><li>categories of programming languages</li></a>
+        <a class="nav-link" href="# The C programming language" rel="internal"><li>The C programming language</li></a>
+        <a class="nav-link" href="#The C Program Development Cycle" rel=" "><li>Program Development Cycle</li></a>
+        <a class="nav-link" href="# The C Compilation Model " rel=" "><li>The C Compilation Model </li></a>
+        <a class="nav-link" href="#Structure of a  C program" rel="internal"><li>Structure of a  C program</li></a>
+        <a class="nav-link" href="#C - Basic Data types" rel="internal"><li>C - Basic Data types</li></a>
+        <a class="nav-link" href="#Comments in c  " rel="internal"><li>Comments in c</li></a>
+        <a class="nav-link" href="# Reserved words in C " rel="internal"><li>Reserved words in C </li></a>
+        <a class="nav-link" href="#C-Operators-operators" rel="internal"><li>C-Operators-operators</li></a>
+        <a class="nav-link" href="#Error-ﬁnding (debugging) tools " rel="internal"><li>Error-ﬁnding (debugging) tools </li></a>
+        <a class="nav-link" href="#Headers vs header ﬁles" rel="internal"><li>Headers vs header ﬁles</li></a>
+		<a class="nav-link" href="#Libraries" rel="internal"><li>Libraries</li></a>
+		<a class="nav-link" href="#Parameters and return values in C" rel="internal"><li>Parameters and return values in C</li></a>
+	
+      </ul>
+	  </b>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="What is programming?">
+        <header><b>What is programming</b></header>
+        <article>
+ <p>Programming is the process of designing, writing, testing, debugging / troubleshooting, 
+            and maintaining the source code of computer programs.  This source code is written in a programming language.</p>
+ <p>A programming language is an artificial language designed to express computations that can be performed by a machine, 
+        particularly a computer. programming languages include;</p>
+		<ul>
+         <li>High-level languages, such as BASIC, C, C++, COBOL, FORTRAN, Java, and Pascal.</li>
+    <li>Machine language which consists of numbers only</li>
+    <li>Assembly languages. </li>
+	</ul>
+</article>
+   </section>
+      <section class="main-section" id="The C Programming Language">
+        <header><b>The C Programming Language</b></header>
+        <article>
+          <p>The C programming language was called "C" because many features derived from an earlier compiler named "B", 
+		which in turn was developed from BCPL. BCPL was a simpler version of a language called CPL, which owed many of its features to a language called Algol 60.
+The names most associated with this early development
+ of C were Ken Thompson and Dennis Ritchie. The main features of C are:</p>
+ <ul>
+ <li>Efﬁciency-C has commands that are directly oriented towards the low level instructions, and can often produce very fast
+ and small code.</li>
+ <li>Portability-C is available on virtually every platform.</li>
+ <li>Simplicity-C has a relatively small number of components </li>
+ </ul>
+ </article> 
+</section>
+      <section class="main-section" id="The C Program Development Cycle">
+        <header><b>The C Program Development Cycle</b></header>
+        <article>
+      <p> Understand the problem that requires a solution then  Design the Program, two common methods used to describe program design are; 
+	  flowcharts and pseudo codes.</p>
+<p>Code the program, then Enter and Check the Program </p>
+    <p>Compile, Link and Execute the Program</p>
+  </article>
+        </section>
+      <section class="main-section" id="The C Compilation Model">
+        <header><b>C Compilation Model</b></header>
+        <article>
+		<p>The Preprocessor accepts source code as input and is responsible for removing comments and interpreting special preprocessor directives denoted by #. </p>
+<p>The C compiler translates source to assembly code. The source code is received from the preprocessor and the assembler creates object code. </p>
+<p>If a source file references library functions or functions defined in other source files the link editor combines these functions (with main ()) to create an executable file. External Variable references are resolved here also. </p>
+   <img src="compilation.PNG"> 
+   </article>  
+	  </section>
+      <section class="main-section" id="Structure of a C program">
+        <header><b>Structure of a C program</b></header>
+        <article>
+		open an editor of choice for example Vs code editor and then write the code;
+        <code>
+<pre>
+		#include<stdio.h>;
+             Main()
+{
+   /* My first program */
+   print f("Hello, World! \n");
+return 0;
+}
+</pre>
+</code>
+then open the source code using any browser of your choice ad it will run.
+</article>
+     </section>
+      <section class="main-section" id="C - Basic Data types">
+        <header><b>C-Basic Data types</b></header>
+        <article>
+          <p>C has a concept of 'data types' which are used to define a variable before its use. The definition of a variable will assign storage for the variable and define the type of data that will be held in the location.</p>
+      C has the following basic built-in or primitive data types.
+	  <ol type="i">
+	  <li>int</li>
+	  <li>float</li>
+	  <li>double</li>
+	  <li>char</li>
+	  <li>string–uses a sequence of characters</li></ol>
+<em>Please note that there is no Boolean data type. C does not have the traditional view about logical comparison, but that’s another story.
+</em></p>
+</article>
+	   </section>
+      <section class="main-section" id="Comments in C">
+        <header><b>Comments in C</b></header>
+        <article>
+         <p>Comments: are used to give additional useful information inside a C Program. 
+		 All the comments will be put inside /*...*/ as given in the example above. 
+		 A comment can span through multiple lines as shown below;</p>
+        <pre>/* My first program */</pre>
+      </article>
+        </section>
+      <section class="main-section" id="Reserved words in C">
+        <header>Reserved words in C</header>
+        <article>
+    <p>Their meaning is already defined, and they cannot be re-defined to mean anything else.These include;</p>
+	<ol type="a">
+	<li>Auto</li>	
+	<li>Else</li>
+<li>Long</li> 
+<li>Return</li>
+</li></ol>
+</article>
+        </section>
+      <section class="main-section" id="C-Operators">
+        <header><b>C-Operators</b></header>
+        <article>
+        <p>An operator is a symbol that tells the compiler to perform specific mathematical or logical manipulations.</p> 
+		<p>Almost every programming language used in application development  is rich in built-in operators</p>
+   <p>The following are various types of operators used in C-programming;</p>
+   <p>Arithmetic Operators; These include the division,subtraction,multiplication and modulas among others</p>
+<code>
+   <pre>#include <stdio.h> 
+ 
+main() 
+{   
+ int a = 21;  
+  int b = 10;   
+ int c ; 
+c = a + b;   
+ print f("Line 1 - Value of c is %d\n", c );  
+  c = a - b;  
+  print f("Line 2 - Value of c is %d\n", c );  
+</pre>
+</code> 
+<p> the out put code for the above is as follows;</p>
+<pre> Line 1 - Value of c is 31 
+      Line 2 - Value of c is 11 
+</pre>  
+   <P>Relational Operators; These evaluate the value of two operands and determine whether they are true or false.
+   an example is given below;</p>
+   <code>
+   <pre>#include <stdio.h> 
+ 
+main() 
+{   
+ int a = 21;    
+int b = 10;    
+int c ; 
+   if( a == b )  
+  {       print f("Line 1 - a is equal to b\n" );
+    }    else  
+  {       print f("Line 1 - a is not equal to b\n" ); 
+   }   
+   </pre>
+   </code>
+   <p>the output for this code is as below;</p>
+   <pre> Line 1 - a is not equal to b 
+         Line 2 - a is not less than b 
+</pre>
+ <P>Logical Operators; these determine whether a condition of an operand is true or false. as shown here;  </P> 
+ <code>
+ <pre>#include <stdio.h> 
+ main() 
+{  
+  int a = 5;  
+  int b = 20;    
+int c ; 
+   if ( a && b )  
+  {       print f("Line 1 - Condition is true\n" );
+    }  
+  if ( a || b )    {
+  Print f("Line 2 - Condition is true\n" );   
+ }  
+</pre>
+ </code>
+ <p>the result will be as follow;</p>
+ <pre>Line 1 - Condition is true 
+      Line 2 - Condition is true 
+</pre>
+ <P>Assignment Operators</P>
+</article>
+        </section>
+      <section class="main-section" id="Error-ﬁnding (debugging) tools">
+        <header><b>Error-ﬁnding (debugging)tools</b></header>
+        <article>
+		<p>There are many ways to ﬁnd errors in your programs, but it is much easier to not put them there in the ﬁrst place (and hence the comments given before about designing before building software). </p>
+       <p>There have been many studies that demonstrate that the cost of ﬁxing an error increases the longer it is allowed to stay in a program. This is particularly true for structural or design errors. </p> 
+	   <p>There are a range of tools and mechanisms for ﬁnding errors;
+	   <ol type="circle">
+	   <li>Put in lots of print f statements throughout your program. This allows you to match the expected behavior of your program with its actual
+	   behavior. 
+You can also print out the contents of important variables as the program runs.
+          <pre>  /* Initialization... */    print f ("Trying to open socket...\n");</pre></li>
+	   <li>Use a debugging tool such as gdb which allows you to; access a single step programs,display variable values,modify variable values</li>
+	   </ol>
+	   </p>
+   </article>
+	   </section>
+      
+	  <section class="main-section" id="Headers vs header ﬁles">
+        <header><b>Headers vs header ﬁles</b></header>
+        <article>
+        <p>Every function in a program has a header part and a body.</p>
+<p>The header has the name and type of the function, along with the parameters to that function.</p>
+<p>The body is enclosed in braces, and has both declarations and executable statements.</p>
+<p>Header ﬁles are declarations that belong to the libraries that come with C. They contain standard C deﬁnes, variable declarations, sometimes code, 
+but more commonly declarations of external functions which are linked into our programs at link time. 
+Some common header ﬁles are:
+<ul>
+<li> Macros and numbers for error conditions</li>
+<li> The prototypes for math library functions</li>
+<li> Standard C types</li>
+<li>C input and output (such as print f)</li>
+<li>The prototypes for string functions</li>
+When we use #include<stdio.h> or any other header ﬁle, the ﬁle is included into our program using the preprocessor.
+</p>
+</article>
+        </section>
+      <section class="main-section" id="Libraries">
+        <header><b>Libraries</b></header>
+        <article>
+        <p>Large parts of many programs do the same things over and over again. 
+		Commonly used routines are put in libraries, which may be linked in at run time.</p>
+		<p>There are three distinct advantages of libraries in C programming;</p>
+		<ul>
+		<li> Saving on disk space </li>
+		<li>Routines can be updated</li>
+		<li>Routines are more reliable</li>
+		</ul>
+		<p><strong><font color="red"> Most compilers can also statically link in the needed libraries if necessary. The executables are larger.
+In general you should not bypass library or system calls. If you do, your programs date quickly.
+When we use a library routine, it saves us having to create a lot of new code.</font color><strong></p>
+<article>
+</section>
+      <section class="main-section" id="Parameters and return values in C">
+        <header><b>Parameters and return values in C</b></header>
+        <article>
+        <p> Our C functions may have a value; As an example - let us say we wished to have a function called 'power'</p> 
+		<p>which returned a value calculated from provided dataxandy such that the result of the function was xy. </p>
+		<p>We have a special statement type which returns a value from the function - it is called return. 
+		Here is the syntax of the return function: return <expression>;</p> 
+		<p>We may also pass parameters to functions that we have deﬁned. 
+		In fact many of the library functions are of this sort - 
+		that is - functions which are passed a parameter and return a value.</p> 
+        </article>
+        </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+<li>All the documentation in this page is taken from <li><a href="https://www.tutorialspoint.com" target="blank">Tutorials point</a>
+		  <li><a href="https://www.W3schools.com" target="blank"> W3schools<a>
+<li><a href="https://www.Solo learn.com" target="blank"> Solo learn<a>
+                                   <li>Title: Learning to Program in C
+                                      Author: N. Kantaris
+                                      Publisher: Babani
+                                    </li>
+                                  
+                                      
+<li> Title: Illustrating ANSI C
+   Author: Donald Alcock
+   Publisher: Cambridge University Press</li>
+       </article>  
+     </section>
+    </main>
+
+  </body>
+</html>
