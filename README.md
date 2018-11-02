@@ -7,22 +7,23 @@ This tutorial briefly describes the programming principles. The process of desig
 Various portions of this tutorial are based off the excellent C text to provide you with an easy step by step guide to programming in C. The course is split up into several sections, or lessons, which include C.
 ##### C-Overview 
 The document contains various a brief introduction to C-Programming and what it all about. Although much of this section will be expanded in later sections as it gives a taste of what is to come.
-###### C-Basics 
+##### C-Basics 
 This tackles the most interesting and important components of a C-program that are very crucial in writing code.
 ##### Code Construct
-.Html
-.CSS
+..1.Html
+..2.CSS
 
-##### REFERENCES https://www.tutorialspoint.com 
-.https://www.Sololearn.com 
-.https://www.W3schools.com
+##### REFERENCES 
+..1.https://www.tutorialspoint.com 
+ ..2.https://www.Sololearn.com 
+..3.https://www.W3schools.com
 
 ##### REFERENCE BOOKS 
-.Title: Learning to Program in C 
+..1.Title: Learning to Program in C 
 Author: N. Kantaris 
 Publisher: Baban
  
- .Title: Illustrating ANSI C 
+..2.Title: Illustrating ANSI C 
  Author: Donald Alcock 
  Publisher: Cambridge University Press
 
