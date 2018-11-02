@@ -10,6 +10,7 @@ The document contains various a brief introduction to C-Programming and what it 
 ##### C-Basics 
 This tackles the most interesting and important components of a C-program that are very crucial in writing code.
 ##### Code Construct
+1 Html
 
 2 CSS
 
@@ -21,8 +22,7 @@ This tackles the most interesting and important components of a C-program that a
 3 https://www.W3schools.com
 
 ##### REFERENCE BOOKS 
-..1.Title: Learning to Program in C 
-Author: N. Kantaris 
+
 1 Title: Learning to Program in C 
  
  Author: N. Kantaris 
