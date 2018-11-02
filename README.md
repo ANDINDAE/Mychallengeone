@@ -1,5 +1,5 @@
 # Mychallengeone
-## Creting Main page content
+## Creating Main page content
 
 ### Introduction To Programming Methodology
 This tutorial briefly describes the programming principles. The process of designing software programs requires a lot of preparation and planning in order to solve a given task thus this tutorial explains what programming is all about and also explains one of the most essential beginners programming language- Programming".
