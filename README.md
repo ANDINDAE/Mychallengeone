@@ -15,14 +15,14 @@ This tackles the most interesting and important components of a C-program that a
 
 2 CSS
 
-##### REFERENCES 
+##### Reference 
 1 https://www.tutorialspoint.com 
  
  2 https://www.Sololearn.com 
 
 3 https://www.W3schools.com
 
-##### REFERENCE BOOKS 
+##### Reference books 
 
 1 Title: Learning to Program in C 
  
